@@ -4,11 +4,12 @@ var fullName = firstName.concat(lastName);
 console.log(fullName);
 
 var population = "672351"
-console.log("population");
+console.log(population);
 
 let x = 672351;
 let y = 3;
 let = x * y;
+console.log(population *= `3`);
 
 var javascriptIsCool = "true";
 
