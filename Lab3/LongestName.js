@@ -29,7 +29,3 @@ else if ((name2.length > name1.length) && (name2.length > name3.length)){
 else if ((name3.length > name1.length) && (name3.length > name2.length)){
     console.log(name3 + ' has the longest name.')
 }
-
-
-
-
