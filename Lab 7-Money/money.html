@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Lab</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section>
+        <form id="money">
+            <div>
+                <label>How Many?</label>
+                <input id="number" type="number" name="quantity"></input>
+            </div>
+            <div>
+                <label>Which Coin?</label>
+                <select id="moneyType" name="moneyType">
+                    <option>Quarter</option>
+                    <option>Dime</option>
+                    <option>Nickel</option>
+                    <option>Penny</option>
+                </select>
+            </div>
+            <button id="button">Make Money!</button>
+        </form>
+        <section id="container"></section>
+    </section>  
+</body>
+<script src="money.js"></script>
