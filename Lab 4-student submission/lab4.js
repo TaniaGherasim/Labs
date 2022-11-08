@@ -18,6 +18,7 @@ function addSubmission(array, newName, newScore, newDate){
      array.push(newSubmission);
      console.log(array);
 }
+addSubmission(submissions, "Sally", 40, "2020-01-01");
 
 
 //3//
