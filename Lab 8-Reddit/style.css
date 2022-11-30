@@ -1,0 +1,22 @@
+body {
+    flex-wrap: wrap;
+    background-color:beige;
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    border: dotted 5px;
+    border-color: rgb(119, 182, 161);
+}
+
+a {
+    display: flex;
+    margin-left: 600px;
+    
+}
+
+h1 {
+    border-top: solid 8px;
+    border-color: rgb(119, 182, 161);
+}
