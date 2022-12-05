@@ -1,15 +1,19 @@
-function pigTranslate(str){
-    let strArr = str.split(' ');
-    let pigLatin = [];
-  
-    for(let word of strArr){
-      if((/([a-zA-Z])/).test(word)){
-        pigLatin.push(word.substring(1) + word[0] + "ay");
-      }else{
-        pigLatin.push(word);
-      }
-    }
-    return pigLatin.join(" ");
-  }
 
-  module.exports = (pigTranslate);
+function translate(actualWord) {
+    word = actualWord.toLowerCase();
+    let vowels = ["a","e","i","o","u"];
+  
+    if(vowels.indexOf(word[0]) > -1) {
+        return word + "way";
+      } else {
+        for (var i=0; i < word.length; i++) {
+              if (vowels.includes(word[i])) {
+                let firstConsonants = word.slice(0,i);
+                let remainingWord = word.slice(i, word.length);
+              return remainingWord + firstConsonants + "ay";
+            }
+        }
+      }
+  }
+  
+  module.exports = {translate};
