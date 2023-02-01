@@ -1,8 +1,14 @@
 import '../css/Header.css';
 
-export function Header(){
+interface HeaderProperties{
+    user:string
+}
+
+export function Header(props:HeaderProperties){
     return(
-        <header><h2>Ice Cream Wars</h2></header>
+        <header><h2>Ice Cream Wars</h2>
+        <h3>Welcome {props.user}</h3>
+        </header>
     )
 }
 

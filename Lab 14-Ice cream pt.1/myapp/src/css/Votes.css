@@ -1,7 +1,8 @@
 .Votes {
-   position: absolute;
+   position:absolute;
    right: 0px;
    margin-right: 100px;
+   margin-top: 250px;
 }
 
 .Votes label {
@@ -19,7 +20,7 @@
     background-color: gray;
 }
 
-.progressChocolate::-moz-progress-bar{
+.progressChocolate::-webkit-progress-value{
     background-color: sienna;
 }
 
@@ -27,7 +28,7 @@
     background-color: gray;
 }
 
-.progressVanilla::-moz-progress-bar{
+.progressVanilla::-webkit-progress-value{
     background-color: silver;
 }
 
@@ -35,6 +36,6 @@
     background-color: gray;
 }
 
-.progressStrawberrry::-moz-prgress-bar{
+.progressStrawberry::-webkit-progress-value{
     background-color: pink;
 }

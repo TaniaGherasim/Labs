@@ -9,8 +9,8 @@ export function AdDesign(){
     return(
     <div id="AdDesign">
         <h2>Ad Design</h2>
-
-         <Ad flavor={flavor} isLight={isLight} fontSize={fontSize} />
+         {/* <Ad flavor={flavor} isLight={isLight} fontSize={fontSize} /> */}
+  
          <h2>What to support</h2>
         <div className="button-bar">
         <button onClick={() => setFlavor('Chocolate')}>Chocolate</button>
@@ -29,7 +29,7 @@ export function AdDesign(){
         <h2>Font Size</h2>
         <div className="button-bar">
         <button onClick={() => setFontSize(fontSize +1)}>Up</button>
-        <input type="number" value={fontSize}></input>
+        <input type="number" value={fontSize} onChange={(event) => setFontSize(Number(event.target.value))}></input>
         <button onClick={() => setFontSize(fontSize -1)}>Down</button>
         </div>
         

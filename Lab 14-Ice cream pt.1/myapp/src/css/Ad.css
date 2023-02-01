@@ -1,34 +1,33 @@
-.Ad{
-    display: flex;
+.Ad {
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 3px solid #222;
     padding: 10px 20px;
     font-weight: bold;
-    width: 170px;
+    width: 180px;
     height: 120px;
     box-shadow: 0 1px 4px 3px #888;
     margin-bottom: 5px;
     margin-left: 20px;
-}
-
-.Ad p {
+    }
+    
+    .Ad p {
     margin: 0;
     padding: 10px;
-}
-
-p.Ad_choice {
+    }
+    
+    p.Ad__choice {
     margin-top: 5px;
     font-family: Caveat;
-}
-
-.Ad--dark {
+    }
+    
+    .Ad--dark {
     color: #fff;
     background-color: #222;
     border-color: white;
-    
-}
+    }
 
 #AdDesign{
     margin-left: 20px;

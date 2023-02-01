@@ -1,5 +1,10 @@
-header{
-  text-align: center;  
+header{  
   border-bottom: 3px solid gray;
   color:#0e3c7e;
+}
+
+h3{
+  color: gray;
+  text-align: right;
+
 }
