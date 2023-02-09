@@ -1,0 +1,43 @@
+.App {
+  text-align: left;
+}
+
+.MenuItem{
+  font-family: Dosis;
+  flex-wrap: wrap;
+}
+
+.Header{
+  background-color: rgb(201, 152, 201);
+  padding: 5px;
+  font-family: Dancing Script;
+  font-size: 20px;
+}
+
+#orderCount{
+  text-align: right;
+  font-family: Dosis;
+}
+
+.AddItem {
+  background-color: blanchedalmond;
+  margin: 10px;
+  width:50px;
+  height: 30px;
+}
+
+.RemoveItem {
+  background-color: red;
+  margin: 10px;
+  width:70px;
+  height: 30px;
+}
+
+.Total{
+  background-color: gray;
+  padding: 20px;
+  font-family: Dosis;
+  float: right;
+  width:150px;
+}
+
